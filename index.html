@@ -10,17 +10,18 @@
 <body>
   <section class="header-content">
     <nav>
-        <ul>
+        <ul class="info-nav">
           <li>call to order: +254 7234 5671</li>
+          <form class=" search d-flex" role="search">
+            <input class=" me-3" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
         </ul>
       </nav>
     <ul class="nav nav-tabs">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">AGRICULTURAL EXPORTS</a>
-        </li>
+      <li class="nav-items">
         <a class="nav-link active" aria-current="page" href="#">Home</a>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Categories</a>
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Categories</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Fruits</a></li>
             <li><a class="dropdown-item" href="#">Vegetables</a></li>
@@ -29,31 +30,28 @@
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">Separated link</a></li>
           </ul>
-        </li>
-        <li class="nav-item" style="display: flex;">
           <a class="nav-link" href="#">About Us</a>
           <a class="nav-link" href="#">Contact Us</a>
           <a class="nav-link" href="#">Gallery</a>
-        </li>
-        <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        <li class="nav-item" style="display: flex;">
-          <a class="nav-link disabled" aria-disabled="true">Sign Up</a>
-          <a class="nav-link disabled" aria-disabled="true">Log in</a>
+          <a class="nav-link" style="margin: 0; border-right: 1px solid black;" href="#">Sign Up</a>
+          <a class="nav-link" style="margin: 0;" href="#">Log In</a>
         </li>
       </ul>
+      <div class="nav-item logo">
+        <a class="nav-link active" aria-current="page" href="#"><span>AGRICULTURAL</span>EXPORTS</a>
+      </div>
   </section>
+
+  <!-- =================================Home Section ================================== -->
   <section class="home">
 <div class="row">
   <div class="col-md-5">
     <div class="profile-img">
-      <img src="images/profile.jpg"></img>
+      <img src="images/profile1.jpg"></img>
     </div>
   </div>
-  <div class="col-md-5">
-    <div class="section-heading">
+  <div class="col-md-5" >
+    <div class="section-heading" style="font-family: Tulpen One Sans Trial Light.otf;">
       Love <br> Grocery<br> Shopping
     </div>
     <button class="btn">Learn More</button>
@@ -69,16 +67,144 @@
          <div class="section-text">
            Top quality products providing your kitchen with the best quality of products grown with the best technology and the best hands on skills in the country!!
          </div>
+         <!-- <div class="veggies-img">
+          <img src="images/veggies1.jpg" style="height: 250px; width: 300px;" alt="veggies image">
+        </div> -->
     </div>
     <div class="col-md-5">
       <div class="veggies-img">
-        <img src="images/profile.jpg" alt="veggies image">
+        <img src="images/veggies.jpg" alt="veggies image">
       </div>
         <div class="veggies-img">
         <img src="images/profile.jpg" alt="veggies image">
       </div>
     </div>
 </div>
+  </section>
+
+  <!-- ================================Services Section=============================== -->
+  <section class="services">
+    <div class="section-heading">
+      <h2>What We Can Do for you</h2>
+    </div>
+      <div class="row">
+       <div class=" service col-md-3">
+        <div class="service-name">Shipping</div>
+        <div class="service-img">
+          <img src="images/shipping.jpg" alt="veggies image">
+        </div>
+        <div class="service-description">
+
+        </div>
+        <button class="btn">request</button>
+      </div>
+      <div class=" service col-md-3">
+        <div class="service-name">wholesale</div>
+        <div class="service-img">
+          <img src="images/veggies.jpg" alt="veggies image">
+        </div>
+        <div class="service-description">
+
+        </div>
+        <button class="btn">request</button>
+      </div>
+      <div class=" service col-md-3">
+        <div class="service-name">Farm Services</div>
+        <div class="service-img">
+          <img src="images/veggies.jpg" alt="veggies image">
+        </div>
+        <div class="service-description">
+          
+        </div>
+        <button class="btn">request</button>
+      </div>
+      </div>
+  </section>
+
+<!--=========================== Team Section============================ -->
+  <section class="team">
+    <div class="section-heading" style="border-bottom:2px solid black ;">Team</div>
+    <div class="sub-tittle">meet the great leaders behind our success</div>
+    <div class="row">
+      <div class="team-member col-md-2">
+        <div class="person-img">
+          <img src="images/person1.jpg" alt="">
+        </div>
+        <div class="person-name">
+           Oluoch Ree
+        </div>
+        <div class="person-position">
+          CEO
+        </div>
+      </div>
+      <div class="team-member col-md-2">
+        <div class="person-img">
+          <img src="images/team2.jpg" alt="">
+        </div>
+        <div class="person-name">
+           Dylan C
+        </div>
+        <div class="person-position">
+          Director
+        </div>
+      </div>
+      <div class="team-member col-md-2">
+        <div class="person-img">
+          <img src="images/team3.jpg" alt="">
+        </div>
+        <div class="person-name">
+           Bree Monroe
+        </div>
+        <div class="person-position">
+          Farm Coordinator
+        </div>
+      </div>
+      <div class="team-member col-md-2">
+        <div class="person-img">
+          <img src="images/team4.jpg" alt="">
+        </div>
+        <div class="person-name">
+           Byron D
+        </div>
+        <div class="person-position">
+          Farm Officer
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================================Contact section============================ -->
+  <section class="contact">
+    <div class="section-heading">
+      <h2>We'd love to work with you</h2> <br> 
+    </div>
+    <div class="row">
+      <div class="col-md-5">
+<img src="images/contact.jpg" alt="">
+      </div>
+      <div class="col-md-5">
+        <h3>Contact Us Now</h3>
+        <div>
+          <h4>Address</h4>
+          <span>123 Tom Mboya Street, city sun</span>
+        </div>
+        <div>
+          <h4>Phone</h4>
+          <span>+123 4567 78910 </span>
+        </div>
+        <div>
+          <h4>Email</h4>
+          <span>contact@agricexports.com</span>
+        </div>
+        <div>
+          <h4>Socials</h4>
+          <span>
+
+          </span>
+        </div>
+      </div>
+    </div>
+
   </section>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
