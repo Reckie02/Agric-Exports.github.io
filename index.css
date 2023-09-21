@@ -23,10 +23,13 @@
 }
 .me-3{
     background: #709c3e;
-    border: 2px solid black;
+    border: none;
+    width: 300px;
+    border-radius: 0%;
 }
 form .btn{
-    border: 2px solid black;
+    border-radius: 0%;
+    border:  1px solid black;
     color: black;
 }
 .nav-tabs{
@@ -74,6 +77,7 @@ a{
 }
 .row{
     display: flex;
+    margin: 0;
 }
 .profile-img img{
     width: 100%;
@@ -110,6 +114,7 @@ a{
 }
 .services{
     padding: 2%;
+   
 
 }
 .services .section-heading{
@@ -120,7 +125,7 @@ a{
     width: 100%;
     text-align: center;
     padding: 1%;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
 }
 .service-name{
@@ -131,11 +136,13 @@ a{
     width: 250px;
     height: 250px;
 }
-.service button{
-
+.service .btn{
     border: 1px solid black;
-    border-radius: 0%;
-    align-self: last baseline;
+    width: 30%;
+    border-radius: 0;
+    margin-left: 150px;
+    margin-top: 3%;
+
 }
 .team{
     background: #a9c478;
@@ -143,14 +150,23 @@ a{
 .person-img img{
     width: 200px;
     height: 200px;
+    margin: 0;
 }
 .team-member{
     text-align: center;
     align-content: center;
+    justify-content: center;
 }
+
 .person-name{
+    width: 100%;
     color: #035303;
     font-weight: 600;
+    text-align: center;
+}
+.person-position, .person-organization, .socials{
+    width: 100%;
+    text-align: center;   
 }
 
 .contact{
@@ -171,10 +187,16 @@ a{
     border: 1px solid black;
     border-top-right-radius:50% ;
     border-top-left-radius: 50%;
-    padding: 2%;
+    padding: 3%;
     padding-top: 40%;
 }
 .testimonials .row .client-feedback span{
    font-size: 2vmin; 
    padding-top: 20%;
+}
+.socials{
+    display: flex;
+}
+.contact h4{
+    color: #46651a;
 }
