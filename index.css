@@ -202,3 +202,59 @@ a{
 .contact h4{
     color: #46651a;
 }
+
+
+ .login, .signup{
+    background-color: #709c3e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+} 
+
+.login-container,  .signup-container  {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.login h1, .signup h1 {
+    color: green;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.login label, .signup label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.login input, .signup input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+
+.login button, .signup button {
+    background-color: green;
+    color: white;
+    padding: 0.5rem 1rem;
+    width: 100%;
+   
+}
+
+.login p , .signup p{
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    
+}
+      
