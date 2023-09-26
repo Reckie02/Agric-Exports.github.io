@@ -44,12 +44,14 @@ form .btn{
 .nav-tabs .nav-link:hover{
     color: #035303;
 }
-.nav-items{
+.nav-items a{
     display: inline-flex;
+    margin-right: 20px;
+    margin-left: 20px;
 }.nav-link {
     border-right: 2px solid black;
     display: inline;
-    font-size: 2.5vmin;
+    font-size: 2vmin;
     color: rgb(0, 0, 0);
 }
 .logo a{
