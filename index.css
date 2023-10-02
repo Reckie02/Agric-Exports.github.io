@@ -9,7 +9,7 @@
     
 }.header-content{
     border-bottom: 2px solid black;
-    
+
 }
 .info-nav{
     width: 100%;
@@ -150,7 +150,12 @@ a{
 
 }
 .team{
-    background: #a9c478;
+   
+}
+.fa-brands:hover{
+    color: rgb(19, 160, 6);
+    cursor: pointer;
+
 }
 .person-img img{
     width: 200px;
@@ -174,6 +179,21 @@ a{
     text-align: center;   
 }
 
+.gallery{
+    background: #a9c478
+}
+
+.gallery .scroll-container{
+
+  overflow: auto;
+  white-space: nowrap;
+  padding: 15px;
+}
+.gallery .scroll-container img{
+    width: 300px;
+    height: 300px;
+}
+
 .contact{
     background: #a9c478;
     padding: 3%;
@@ -183,6 +203,7 @@ a{
     height: 300px;
 }
 .testimonials{
+    background-color: #a9c478;
     padding: 3%;
 }
 .testimonials .row .client-feedback{
